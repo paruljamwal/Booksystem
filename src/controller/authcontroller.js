@@ -12,9 +12,9 @@ router.post("",async(req,res)=>{
             return res.status(404).send("Wrong email or password");
         }
 
-        else{
-            
-        }
+        // else{
+
+        // }
         return res.status(202).send({register:register});
     }
     catch(err){
